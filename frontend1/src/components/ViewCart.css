@@ -1,0 +1,10 @@
+/* ViewCart.css */
+.cart-container {
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

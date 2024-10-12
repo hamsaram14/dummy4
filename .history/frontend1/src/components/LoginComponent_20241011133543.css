@@ -1,0 +1,69 @@
+/* src/components/LoginComponent.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('http://localhost:3000/mainpage1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 50px; 
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem 35rem;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto; 
+}
+
+.login-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    background-color: #0a66c2;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #084298;
+}
+
+.message {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #e74c3c;
+}
+
+.signup-prompt {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}

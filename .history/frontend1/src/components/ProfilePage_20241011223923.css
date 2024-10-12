@@ -1,0 +1,63 @@
+/* Profile page container with background image */
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Start from the top */
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    background-image: url('http://localhost:3000/.jpg'); /* Make sure this path is correct */
+    background-size: 50%; /* Adjust size as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: overlay;
+    opacity: 0.1; /* Makes it look subtle */
+    padding: 20px;
+    position: relative;
+}
+
+/* Profile form container */
+.profile-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the heading */
+.profile-page h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Adjust form styling */
+.profile-page label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profile-page input, .profile-page select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Styling the update button */
+.profile-page button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}

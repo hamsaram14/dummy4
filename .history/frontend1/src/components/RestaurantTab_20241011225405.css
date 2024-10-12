@@ -1,0 +1,9 @@
+.restaurant-tab {
+    padding: 20px;
+}
+
+.restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

@@ -1,0 +1,76 @@
+/* ProfilePage.css */
+
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-container {
+    z-index: 1; /* Place content above the background */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profile-page input,
+.profile-page select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.profile-page button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-page .message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.profile-page::before {
+    content: "";
+    background-image: url('http://localhost:3000/uber_eats.jpg'); /* Use the correct path from the public folder */
+    background-size: 40%; /* Adjust size as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2; /* Makes the image look shadowed */
+    z-index: -1; /* Ensure it stays behind all other content */
+}
