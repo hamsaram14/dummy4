@@ -15,7 +15,7 @@ html, body {
     align-items: center;
     height: 100vh; /* Set minimum height to 100vh */
     width: 100vw; /* Set width to cover full viewport */
-    background-image: url('http://localhost:3000/mainpage1.jpg'); /* Ensure this path is correct */
+    background-image: url('http://localhost:3000/mainpage1.jpg');  /* Ensure this path is correct */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

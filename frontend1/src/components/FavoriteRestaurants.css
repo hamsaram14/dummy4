@@ -1,0 +1,35 @@
+.favorite-restaurants {
+    padding: 20px;
+    
+}
+
+.favorite-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.favorite-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.restaurant-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.restaurant-info {
+    padding: 10px;
+}
+
+.favorite-icon {
+    margin-top: 10px;
+    font-size: 1.5em;
+}

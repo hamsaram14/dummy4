@@ -1,3 +1,7 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProfilePage from '../../frontend/src/components/ProfilePage';
+
 // src/App.js
 {/* 
     import React from 'react';
@@ -28,9 +32,7 @@ export default App; */}
 
 
 // src/App.js
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ProfilePage from '../../frontend1/src/components/ProfilePage';
+
 
 function App() {
     return (
