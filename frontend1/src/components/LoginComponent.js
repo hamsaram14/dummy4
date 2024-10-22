@@ -61,7 +61,7 @@ const LoginComponent = () => {
                 </form>
                 {message && <p className="message">{message}</p>}
                 <p className="signup-prompt">
-                    Don't have an account? <a href="/signup">Sign Up</a>
+                    Don't have an account? <a href="/customer-signup">Sign Up</a>
                 </p>
             </div>
         </div>

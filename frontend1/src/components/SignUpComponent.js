@@ -107,7 +107,7 @@ const SignUpComponent = () => {
                 {message && <p className="message">{message}</p>}
 
                 <p className="login-prompt">
-                    Already have an account? <Link to="/login">Log In</Link>
+                    Already have an account? <Link to="/customer-login">Log In</Link>
                 </p>
             </div>
         </div>
